@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Chosen Hideout — Arma 3 Archive</title>
+<meta name="description" content="The Chosen Hideout: an Arma 3 community archive. Mods, gear packs and more, sorted into the same folders as our Proton Drive." />
+<meta name="theme-color" content="#06060b" />
+<meta property="og:title" content="The Chosen Hideout" />
+<meta property="og:description" content="Arma 3 community archive — mods, gear packs and more." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/img/logo-512.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/logo-64.png" />
+<link rel="apple-touch-icon" href="assets/img/logo-192.png" />
+</head>
+<body>
+
+<a class="skip" href="#catalogo">Skip to catalog</a>
+
+<!-- effect layers (scanlines, grain, vignette) -->
+<div class="fx" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar__in">
+    <a class="brand" href="#top">
+      <img class="brand__logo" src="assets/img/logo-192.png" alt="The Chosen Hideout logo" width="42" height="42" />
+      <span class="brand__txt">
+        The Chosen Hideout
+        <em>arma 3 // archive</em>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#categorias">Categories</a>
+      <a href="#catalogo">Catalog</a>
+      <a href="#" data-proton-link target="_blank" rel="noopener noreferrer">Proton Drive</a>
+    </nav>
+
+    <a class="btn btn--discord" href="https://discord.gg/F4JHDDYCf6" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 4.5A19 19 0 0 0 15.6 3l-.3.7a17 17 0 0 0-6.6 0L8.4 3a19 19 0 0 0-4.7 1.5C.9 9.1.1 13.5.5 17.9A19 19 0 0 0 6.3 21l.7-1.2c-.7-.3-1.4-.6-2-1l.5-.4a13.6 13.6 0 0 0 11 0l.5.4c-.6.4-1.3.7-2 1l.7 1.2a19 19 0 0 0 5.8-3.1c.4-4.4-.4-8.8-1.2-13.4ZM8.4 15.4c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.1 1.1 2.1 2.4-.9 2.4-2.1 2.4Zm7.2 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.1 1.1 2.1 2.4-.9 2.4-2.1 2.4Z"/></svg>
+      Discord
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="wrap hero__in">
+      <div class="hero__brand">
+        <img class="hero__logo" src="assets/img/logo-512.png" alt="The Chosen Hideout logo" width="512" height="512" decoding="async" fetchpriority="high" />
+        <div class="hero__copy">
+          <p class="kicker">
+            <span class="kicker__dot"></span>
+            community &nbsp;//&nbsp; arma 3 &nbsp;//&nbsp; open archive
+          </p>
+
+          <h1 class="wordmark" data-text="THE CHOSEN HIDEOUT">THE CHOSEN HIDEOUT</h1>
+
+          <p class="hero__lede">
+            Everything the Hideout drops, in one place. Mods, gear, maps and packs
+            sorted into the same folders as our <strong>Proton Drive</strong> — no more digging
+            through Discord history for a dead link.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#catalogo">Browse catalog</a>
+            <a class="btn btn--ghost" href="https://discord.gg/F4JHDDYCf6" target="_blank" rel="noopener noreferrer">
+              Join the Discord
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <dl class="stats" id="stats" aria-label="Archive numbers">
+        <div class="stat"><dt>Categories</dt><dd data-stat="categories">—</dd></div>
+        <div class="stat"><dt>Packages</dt><dd data-stat="items">—</dd></div>
+        <div class="stat"><dt>Updated</dt><dd data-stat="updated">—</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__row" id="tickerRow"></div>
+  </div>
+
+  <!-- ================= CATEGORIES ================= -->
+  <section class="section" id="categorias">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 class="sec-title"><span class="sec-title__num">01</span> Categories</h2>
+        <p class="sec-sub">The same folders as our Proton Drive, in the same order. Click one and you land straight in the folder.</p>
+      </header>
+
+      <div class="cats" id="cats" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ================= CATALOG ================= -->
+  <section class="section" id="catalogo">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 class="sec-title"><span class="sec-title__num">02</span> Catalog</h2>
+        <p class="sec-sub">Search by name, tag or description. Press <kbd>/</kbd> to jump to search.</p>
+      </header>
+
+      <div class="toolbar">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="q" type="search" placeholder="Search mod, map, pack…" autocomplete="off" spellcheck="false" />
+        </label>
+
+        <div class="toolbar__right">
+          <label class="select">
+            <span>sort</span>
+            <select id="sort">
+              <option value="recent">Newest</option>
+              <option value="az">A → Z</option>
+              <option value="category">By category</option>
+              <option value="size">Largest first</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="chips" id="chips" role="group" aria-label="Category filters"></div>
+
+      <div class="catalog__meta">
+        <span id="count">Loading…</span>
+        <button id="clear" class="linkbtn" type="button" hidden>clear filters</button>
+      </div>
+
+      <div class="items" id="items" aria-live="polite"></div>
+
+      <div class="empty" id="empty" hidden>
+        <p class="empty__t" id="emptyTitle">Nothing found.</p>
+        <p class="empty__s" id="emptySub">Try another term, or clear the filters.</p>
+        <button class="btn btn--ghost" type="button" data-clear>Clear filters</button>
+      </div>
+
+      <div class="loaderr" id="loaderr" hidden>
+        <p class="loaderr__t">Couldn't load <code>data/catalog.json</code>.</p>
+        <p>This almost always means the file was opened directly (double-click). Run a local server inside the site folder:</p>
+        <pre><code>python -m http.server 8080</code></pre>
+        <p>Then open <a href="http://localhost:8080">http://localhost:8080</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section section--cta">
+    <div class="wrap cta">
+      <div class="cta__copy">
+        <h2 class="cta__title">Need something that isn't here?</h2>
+        <p class="cta__sub">Ask in the Discord. Requests, reuploads and dead links get sorted there faster than anywhere else.</p>
+      </div>
+      <div class="cta__actions">
+        <a class="btn btn--primary" href="https://discord.gg/F4JHDDYCf6" target="_blank" rel="noopener noreferrer">Join the Discord</a>
+        <a class="btn btn--ghost" href="#" data-proton-link target="_blank" rel="noopener noreferrer">Open Proton Drive</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div class="footer__brand">
+      <img class="brand__logo brand__logo--footer" src="assets/img/logo-192.png" alt="" width="42" height="42" loading="lazy" />
+      <p>The Chosen Hideout<br /><em>community archive</em></p>
+    </div>
+
+    <div class="footer__links">
+      <a href="https://discord.gg/F4JHDDYCf6" target="_blank" rel="noopener noreferrer">Discord</a>
+      <a href="#" data-proton-link target="_blank" rel="noopener noreferrer">Proton Drive</a>
+      <a href="#catalogo">Catalog</a>
+    </div>
+
+    <p class="footer__legal">
+      Community-built link index. Every file stays on the organizers' Proton Drive.
+      Arma 3 is a trademark of Bohemia Interactive; this site is not affiliated with them.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

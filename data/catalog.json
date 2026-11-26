@@ -1,0 +1,688 @@
+{
+  "site": {
+    "name": "The Chosen Hideout",
+    "tagline": "Arma 3 community archive",
+    "discord": "https://discord.gg/F4JHDDYCf6",
+    "protonRoot": "https://drive.proton.me/urls/6D07PC63PR#EzmwH5aYWpLP",
+    "updated": "2026-11-25"
+  },
+  "categories": [
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "desc": "Afghan army and insurgent kits: uniforms, weapons, vehicles and terrain bits.",
+      "accent": "#6f6bff",
+      "protonUrl": ""
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "desc": "Australian Defence Force kits, camo patterns and vehicle skins.",
+      "accent": "#ff7a2f",
+      "protonUrl": ""
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "desc": "Brazilian military gear, jungle kits and urban camo.",
+      "accent": "#5c7cff",
+      "protonUrl": ""
+    },
+    {
+      "id": "fictional",
+      "name": "Fictional",
+      "desc": "Made-up factions, sci-fi hardware and alt-history packs.",
+      "accent": "#ffa15c",
+      "protonUrl": ""
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "desc": "Russian Federation kits, from Ratnik forward to older surplus.",
+      "accent": "#8f8bff",
+      "protonUrl": ""
+    },
+    {
+      "id": "trusted",
+      "name": "Trusted",
+      "desc": "Vetted packs the staff actually runs on the server. Start here.",
+      "accent": "#ff9466",
+      "protonUrl": ""
+    },
+    {
+      "id": "uk",
+      "name": "UK",
+      "desc": "British Army kits, desert and temperate, plus vehicle packs.",
+      "accent": "#7d7bff",
+      "protonUrl": ""
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "desc": "Ukrainian kits, current issue and legacy gear.",
+      "accent": "#ffb066",
+      "protonUrl": ""
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "desc": "US Army and Marine kits, from multicam to woodland.",
+      "accent": "#6f6bff",
+      "protonUrl": ""
+    },
+    {
+      "id": "weapons",
+      "name": "Weapons",
+      "desc": "Weapon packs and attachments that don't belong to a single faction.",
+      "accent": "#ff7a2f",
+      "protonUrl": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "ce3fe45408",
+      "name": "AFG Stuff",
+      "category": "afghanistan",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "AFGHANISTAN/AFG Stuff"
+    },
+    {
+      "id": "14a53ecc1e",
+      "name": "ANA Stuff",
+      "category": "afghanistan",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "AFGHANISTAN/ANA Stuff"
+    },
+    {
+      "id": "13eef03505",
+      "name": "SASR",
+      "category": "australia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "AUSTRALIA/@SASR"
+    },
+    {
+      "id": "fc6fd548ff",
+      "name": "BOPE RJ",
+      "category": "brazil",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "BRAZIL/BOPE RJ"
+    },
+    {
+      "id": "f7d3cb5f73",
+      "name": "HMT ComAnf",
+      "category": "brazil",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "BRAZIL/HMT ComAnf"
+    },
+    {
+      "id": "6a9b843053",
+      "name": "SCP",
+      "category": "fictional",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "FICTIONAL/SCP"
+    },
+    {
+      "id": "d5ffaaa528",
+      "name": "LWB - Personal",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/@LWB - Personal"
+    },
+    {
+      "id": "db81032298",
+      "name": "rus uniform and vest",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/@rus uniform and vest"
+    },
+    {
+      "id": "50b8ceb891",
+      "name": "Hendrix Old Gear",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/Hendrix Old Gear"
+    },
+    {
+      "id": "391e35bbeb",
+      "name": "KBS",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/KBS"
+    },
+    {
+      "id": "ceae815db5",
+      "name": "MOBIKS",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/MOBIKS"
+    },
+    {
+      "id": "cccffdb371",
+      "name": "MVD",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/MVD"
+    },
+    {
+      "id": "3f6239d7ab",
+      "name": "ZIGGER",
+      "category": "russia",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "RUSSIA/ZIGGER"
+    },
+    {
+      "id": "9e52e0310f",
+      "name": "SAC",
+      "category": "trusted",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "TRUSTED/@SAC"
+    },
+    {
+      "id": "4e96a0ef40",
+      "name": "eliah",
+      "category": "trusted",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "TRUSTED/eliah"
+    },
+    {
+      "id": "fa70c658bc",
+      "name": "R SQN",
+      "category": "trusted",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "TRUSTED/R SQN"
+    },
+    {
+      "id": "09d35e41c2",
+      "name": "UKSF (new)",
+      "category": "uk",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UK/UKSF (new)"
+    },
+    {
+      "id": "e05457f913",
+      "name": "ZSQN (new)",
+      "category": "uk",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UK/ZSQN (new)"
+    },
+    {
+      "id": "6628abf65c",
+      "name": "XYI_CTSFO",
+      "category": "uk",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 40600862,
+      "updated": "",
+      "protonPath": "UK/@XYI_CTSFO.rar"
+    },
+    {
+      "id": "62797a0e03",
+      "name": "MOLOFSOUND",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/@@MOLOFSOUND"
+    },
+    {
+      "id": "33f0b8ac87",
+      "name": "betterukraine gear",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/@betterukraine gear"
+    },
+    {
+      "id": "a0c85a7f5b",
+      "name": "KLAT SSO",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/@KLAT SSO"
+    },
+    {
+      "id": "0a949dbb12",
+      "name": "Russian and ukraine gear",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/@Russian and ukraine gear"
+    },
+    {
+      "id": "cc780188fe",
+      "name": "Ukraine gear",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/@Ukraine gear"
+    },
+    {
+      "id": "acfbbd7c03",
+      "name": "GUR",
+      "category": "ukraine",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "UKRAINE/GUR"
+    },
+    {
+      "id": "83e5aa25ff",
+      "name": "goon",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@goon"
+    },
+    {
+      "id": "49f02ce44f",
+      "name": "Goon Dependencies",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@Goon Dependencies"
+    },
+    {
+      "id": "efa4970aeb",
+      "name": "ISAF",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@ISAF"
+    },
+    {
+      "id": "4b578061dc",
+      "name": "JTFO GEARS",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@JTFO GEARS"
+    },
+    {
+      "id": "3919de2564",
+      "name": "marines wow",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@marines wow"
+    },
+    {
+      "id": "e8635b0fa7",
+      "name": "sigma",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@sigma"
+    },
+    {
+      "id": "ba5fcad4b6",
+      "name": "Under Armour Wrist Coach Plus",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@Under Armour Wrist Coach Plus"
+    },
+    {
+      "id": "d3d7095f2b",
+      "name": "USMC",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/@USMC"
+    },
+    {
+      "id": "1b0004569c",
+      "name": "26th USMC",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/26th USMC"
+    },
+    {
+      "id": "d35e423c85",
+      "name": "75th RGR",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/75th RGR"
+    },
+    {
+      "id": "5a9c2a4831",
+      "name": "ARMY CAG",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/ARMY CAG"
+    },
+    {
+      "id": "91185be0f1",
+      "name": "B20",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/B20"
+    },
+    {
+      "id": "b80769206e",
+      "name": "B23",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/B23"
+    },
+    {
+      "id": "371e70aeea",
+      "name": "CAG ASQN",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/CAG ASQN"
+    },
+    {
+      "id": "d502770e4d",
+      "name": "Cherish",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/Cherish"
+    },
+    {
+      "id": "94140abfae",
+      "name": "GXTS",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/GXTS"
+    },
+    {
+      "id": "31be4dc392",
+      "name": "Hendrix",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/Hendrix"
+    },
+    {
+      "id": "438fb78ecf",
+      "name": "Hyoon",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/Hyoon"
+    },
+    {
+      "id": "35bb20c099",
+      "name": "NSW BSQN",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/NSW BSQN"
+    },
+    {
+      "id": "d5b23ee29d",
+      "name": "SAC PBOs",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/SAC PBOs"
+    },
+    {
+      "id": "834c32433f",
+      "name": "TD4 BSQN",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/TD4 BSQN"
+    },
+    {
+      "id": "c75e650ddd",
+      "name": "TFW Gear",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/TFW Gear"
+    },
+    {
+      "id": "9e4189e3ac",
+      "name": "TOTT",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/TOTT"
+    },
+    {
+      "id": "24df242a0b",
+      "name": "US BLUE SQUADRON",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/US BLUE SQUADRON"
+    },
+    {
+      "id": "8f428ed815",
+      "name": "XYI",
+      "category": "usa",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "USA/XYI"
+    },
+    {
+      "id": "211bb80929",
+      "name": "FSQN - LWRC Rifles",
+      "category": "weapons",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "WEAPONS/@FSQN - LWRC Rifles"
+    },
+    {
+      "id": "a222f16bd0",
+      "name": "SOLGW MK1 CAR",
+      "category": "weapons",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "WEAPONS/@SOLGW MK1 CAR"
+    },
+    {
+      "id": "76fe460502",
+      "name": "SF Weapons Pack",
+      "category": "weapons",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "WEAPONS/SF Weapons Pack"
+    },
+    {
+      "id": "1f9077b716",
+      "name": "TFB Weapons",
+      "category": "weapons",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "WEAPONS/TFB Weapons"
+    },
+    {
+      "id": "aafffd1f5d",
+      "name": "TFW Weapons",
+      "category": "weapons",
+      "desc": "",
+      "tags": [],
+      "version": "—",
+      "sizeBytes": 0,
+      "updated": "",
+      "protonPath": "WEAPONS/TFW Weapons"
+    }
+  ]
+}
